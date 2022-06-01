@@ -1,0 +1,17 @@
+{
+  "name": "aws-lambda-pre-build-cognito-benchmark",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Lambda ES Module pre-build cognito performance benchmarking",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.36.1",
+    "@aws-sdk/client-ssm": "^3.36.1",
+    "aws-xray-sdk-core": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aws-samples/aws-lambda-es-module-performance-benchmark"
+  },
+  "author": "Martin Bonafede",
+  "homepage": "https://aws.amazon.com/blogs/compute/using-node-js-es-modules-and-top-level-await-in-aws-lambda"
+}
